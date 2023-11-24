@@ -1,0 +1,12 @@
+package Praktikum4;
+
+public class TestMahasiswa {
+	public static void main (String args[] ) {
+		Mahasiswa murid = new Mahasiswa();
+		murid.setNama("manda");
+		murid.setNpm(22);
+		
+		System.out.println("Nama Mahasiswa : "+murid.nama
+				+ "\nNpm Mahasiswa : "+murid.npm);
+	}
+}
